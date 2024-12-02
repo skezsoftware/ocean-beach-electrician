@@ -1,0 +1,76 @@
+.hero-carousel img {
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.service-card {
+  border-color: var(--color-light);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  border-color: var(--color-primary);
+}
+
+.service-icon {
+  color: var(--color-primary);
+}
+
+.booking-section {
+  background-color: var(--color-light);
+}
+
+.review-card {
+  transition: transform 0.3s ease;
+  border-color: var(--color-light);
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-primary);
+}
+
+/* Star color in reviews */
+.text-warning {
+  color: var(--color-accent) !important;
+}
+
+/* Service icons hover effect */
+.service-icon:hover {
+  color: var(--color-secondary);
+  transition: color 0.3s ease;
+}
+
+/* Card hover effects */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(70, 151, 161, 0.2);
+}
+
+/* Button hover states */
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+/* Section headings */
+h2 {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: var(--color-accent);
+}
