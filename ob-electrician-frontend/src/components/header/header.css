@@ -7,3 +7,16 @@
     background-color: #f8f9fa;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.logo {
+    height: 80px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar a:hover {
+    color: #007bff;
+}
