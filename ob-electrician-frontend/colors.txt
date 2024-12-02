@@ -1,0 +1,4 @@
+#4697a1: Deep Aqua / Teal Blue
+#7ecdd8: Light Cyan / Sky Blue
+#befbff: Pale Cyan / Light Ice Blue
+#ff8c40: Coral Orange / Burnt Orange
